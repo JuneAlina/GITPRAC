@@ -1,0 +1,12 @@
+#!/bin/bash
+
+#ch26_ Shell function Demo
+
+function step2 {
+	echo "Step2"
+	return
+}
+
+echo "Step1"
+step2
+echo "Step3"
